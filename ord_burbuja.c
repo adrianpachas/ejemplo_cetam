@@ -27,4 +27,12 @@ int main() {
             }
         }
     }
+    printf("\n");
+    printf("la lista de numeros ordenados es:");
+    for ( i = 0; i < SIZE; i++)
+    {
+        printf("\n");
+        printf("%d",ord_vector[i]);
+    }
+    
 }
